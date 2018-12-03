@@ -1,0 +1,64 @@
+/***** CSS Reset *****/
+/**�����������������Ե�������ʽ����**/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+#result{
+	vertical-align: middle;
+	height: 100px;
+	width:calc(100vw - 20px);
+	margin:0 10px 20px;
+}
+/* 流程图特殊样式 */
+#flowheadtitle{
+	background: rgba(0,0,0,0);
+	border: none;
+	box-shadow: none;
+}
+#flowadviser{
+	background: rgba(0,0,0,0);
+	border: none;
+	box-shadow: none;
+}
+.to-animate {
+	width: 12px;
+	height: 12px;
+	background: rgb(56, 146, 211);
+	position: absolute;
+	left:10px; 
+	top:8px; 
+	border-radius: 25px;
+	opacity: 1;
+}
+.GooFlow_work .GooFlow_work_inner{
+	background:url(../img/map.png) no-repeat;
+	background-size: contain;
+}
+#scalerule{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+}
+#scalerule .scale-rule-button{
+	padding-right: 0;
+	padding-left: 0;
+	box-sizing: content-box;
+	width: 20px;
+	height: 8px;
+	cursor: pointer;
+}
